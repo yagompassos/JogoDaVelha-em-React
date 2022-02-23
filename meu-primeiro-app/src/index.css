@@ -1,0 +1,38 @@
+body {
+  margin: 10px;
+  font: 40px 'Courier New', Courier, monospace;
+  background-color:#444;
+  color: white;
+}
+
+.game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status{
+  margin: 20px;
+  font-size: 24px;
+}
+
+.linhaQuadro{
+display: flex;
+flex-flow: row nowrap;
+}
+
+.quadrado{
+  background-color: #444;
+  color: white;
+  border: 1px solid #999;
+  padding: 0;
+  font-size: 84px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+
+.quadrado:focus{
+  outline: none;
+  background-color: #222;
+}
